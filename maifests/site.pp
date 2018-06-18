@@ -3,3 +3,10 @@ node default {
     ensure =>  file,
   }
 }
+
+node 'puppetmaster.example.com'
+{
+  file {'/root/MASTER':
+    ensure =>  file,
+  }
+}
