@@ -10,5 +10,5 @@ node 'puppetmaster.example.com'
   file {'/root/MASTER':
     ensure =>  file,
   }
-  notify{"The is seen!"
+  notify{"The is seen!"}
 }
